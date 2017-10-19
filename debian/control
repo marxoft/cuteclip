@@ -1,0 +1,44 @@
+Source: cuteclip
+Section: user/utilities
+Priority: optional
+Maintainer: Stuart Howarth <showarth@marxoft.co.uk>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.3
+Homepage: https://github.com/marxoft/cuteclip
+
+Package: cuteclip
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, qt-components-hildon (>= 0.26.2), qt-components-hildon-viewer (>= 0.1.0)
+Description: A simple notes application with a clipboard monitor
+ cuteClip is a simple notes application that can monitor the clipboard to create
+ new notes. Notes can also be opened with user-defined actions.
+XB-Maemo-Display-Name: cuteClip
+XB-Maemo-Icon-26:
+ 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
+ YII=

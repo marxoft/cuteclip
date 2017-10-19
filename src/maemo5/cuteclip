@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -e
+qchviewer /opt/cuteclip/qml/MainWindow.qml $@
+exit 0
